@@ -5,7 +5,7 @@ import SkeletonProductInfo from './SkeletonProductInfo'
 
 import { useUser } from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
-import CartApis from '../../../_utils/CartApis'
+import CartApis from '../../../_Utils/CartApis'
 import { CartContext } from '../../../_context/CartContext'
 
 const ProductInfo = ({ product }) => {

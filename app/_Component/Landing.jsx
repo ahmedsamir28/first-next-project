@@ -2,7 +2,7 @@ import React from 'react';
 
 const Landing = () => {
     return (
-        <section className='bg-black'>
+        <section className='bg-gray-900'>
             <div
                 style={{ height: '550px' }}
                 className="mx-auto container  ">

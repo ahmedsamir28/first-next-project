@@ -5,10 +5,9 @@ import { useUser } from '@clerk/nextjs'
 import { UserButton } from "@clerk/nextjs";
 import { ShoppingCart } from 'lucide-react'
 import { CartContext } from '../_context/CartContext';
-import CartApis from '../_utils/CartApis';
+import CartApis from '../_Utils/CartApis';
 import Cart from './Cart';
 import Link from 'next/link'
-
 const Header = () => {
     const [isLoggedIn, setIsLoggedIn] = useState()
     const [openCart, setOpenCart] = useState(false)
@@ -40,7 +39,7 @@ const Header = () => {
         })
     }
     return (
-        <header className="bg-white dark:bg-black  py-3">
+        <header className=" bg-gray-900  py-3">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">
